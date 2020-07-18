@@ -33,11 +33,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "41d3bedd87fb615362119be80dfb0e0f",
-    "url": "/static/media/Dataveyes_Checklist_Human_Data_Interactions_project_EN.41d3bedd.pdf"
+    "url": "/static/media/JanoRoze_Checklist_Human_Data_Interactions_project_EN.41d3bedd.pdf"
   },
   {
     "revision": "922c1c37d9d19e1b94dd059477c32fe7",
-    "url": "/static/media/Dataveyes_Checklist_Projet_d_interactions_humains_donnees_FR.922c1c37.pdf"
+    "url": "/static/media/JanoRoze_Checklist_Projet_d_interactions_humains_donnees_FR.922c1c37.pdf"
   },
   {
     "revision": "62fd273221fb439bdea0646ce6936183",

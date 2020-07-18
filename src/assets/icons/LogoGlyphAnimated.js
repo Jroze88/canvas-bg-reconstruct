@@ -266,7 +266,7 @@ const LogoGlyph = ({ theme, isDarkTheme }) => {
         </clipPath>
       </defs>
       <g
-        id='Dataveyes'
+        id='JanoRoze'
         stroke='none'
         strokeWidth='1'
         fill='none'

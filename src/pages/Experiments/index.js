@@ -77,12 +77,12 @@ const archives = [
   },
   {
     label: {
-      fr: 'Logo Dataveyes animé',
-      en: 'Dataveyes\' animated logo'
+      fr: 'Logo JanoRoze animé',
+      en: 'JanoRoze\' animated logo'
     },
     url: {
-      fr: 'http://prototype.dataveyes.com/#/',
-      en: 'http://prototype.dataveyes.com/#/'
+      fr: 'http://prototype.JanoRoze.com/#/',
+      en: 'http://prototype.JanoRoze.com/#/'
     },
     category: {
       fr: 'Prototype',

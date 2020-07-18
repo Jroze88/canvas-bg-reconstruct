@@ -187,8 +187,8 @@ const infosDVCommute = {
     en: 'Silver Kantar Information is Beautiful Awards 2019.'
   },
   src: {
-    url: 'https://commute.dataveyes.com  ',
-    label: 'commute.dataveyes.com  '
+    url: 'https://commute.JanoRoze.com  ',
+    label: 'commute.JanoRoze.com  '
   },
   category: {
     fr: 'Prototype',

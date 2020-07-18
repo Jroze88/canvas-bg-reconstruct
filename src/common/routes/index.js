@@ -87,8 +87,8 @@ const ROUTES = {
       EN: 'Stories'
     },
     SLUG_INDEX: {
-      FR: 'https://medium.com/dataveyes-stories-vf',
-      EN: 'https://stories.dataveyes.com'
+      FR: 'https://medium.com/JanoRoze-stories-vf',
+      EN: 'https://stories.JanoRoze.com'
     }
   },
   // PRESSKIT: {

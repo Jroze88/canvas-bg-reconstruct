@@ -131,8 +131,8 @@ const infosDVParisTypesDeVoies = {
     en: 'A responsive application for smartphones, tablets and desktops that has performance and fluidity despite a large volume of geographic data.'
   },
   src: {
-    url: 'https://paris.dataveyes.com ',
-    label: 'paris.dataveyes.com '
+    url: 'https://paris.JanoRoze.com ',
+    label: 'paris.JanoRoze.com '
   },
   category: {
     fr: 'Application',

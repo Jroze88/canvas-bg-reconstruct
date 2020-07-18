@@ -148,8 +148,8 @@ const infosMalakoffMedericBarometre = {
     en: 'Foster the sharing and reuse of data via an open data platform for the general public.'
   },
   quote: {
-    fr: 'Avec un accompagnement d\'un grand professionnalisme et leur double expertise en communication et sur le travail de la donnée, Dataveyes nous a permis de renforcer notre proposition de valeur sur le décryptage des enjeux du capital humain.',
-    en: 'With their professionalism and combined expertise in communication and data processing, Dataveyes has enabled us to strengthen our value proposition in terms of bettering understanding human capital.',
+    fr: 'Avec un accompagnement d\'un grand professionnalisme et leur double expertise en communication et sur le travail de la donnée, JanoRoze nous a permis de renforcer notre proposition de valeur sur le décryptage des enjeux du capital humain.',
+    en: 'With their professionalism and combined expertise in communication and data processing, JanoRoze has enabled us to strengthen our value proposition in terms of bettering understanding human capital.',
     author: {
       name: 'Marc Fargeas',
       position: {

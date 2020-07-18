@@ -37,7 +37,7 @@ const OpenApplications = () => (
       <ButtonContact
         alignLeft
         label={<FormattedMessage id='jobs-applications-button' />}
-        email='jobs@dataveyes.com'
+        email='jobs@JanoRoze.com'
       />
     </ContainerRight>
   </>

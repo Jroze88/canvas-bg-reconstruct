@@ -201,8 +201,8 @@ const infosSaintGobainAnalyzer = {
     en: 'Make people feel the thermal comfort of a home from physical simulation data.'
   },
   quote: {
-    fr: 'L’équipe Dataveyes a su nous écouter et a réussi à bien cerner notre problématique. Elle nous a apporté une manière différente d’appréhender le sujet, en appliquant une méthodologie très professionnelle, et en faisant preuve d’agilité dans le développement de l’application.',
-    en: 'The Dataveyes team listened to our needs and identified our challenge successfully. They shined a new light on the problem, by applying a very professional process and remaining agile during the application’s development.',
+    fr: 'L’équipe JanoRoze a su nous écouter et a réussi à bien cerner notre problématique. Elle nous a apporté une manière différente d’appréhender le sujet, en appliquant une méthodologie très professionnelle, et en faisant preuve d’agilité dans le développement de l’application.',
+    en: 'The JanoRoze team listened to our needs and identified our challenge successfully. They shined a new light on the problem, by applying a very professional process and remaining agile during the application’s development.',
     author: {
       name: 'Thierry Voillequin',
       position: {

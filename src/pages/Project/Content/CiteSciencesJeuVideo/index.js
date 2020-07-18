@@ -177,11 +177,11 @@ const infosCiteSciencesJeuVideo = {
   caseStudy: {
     en: {
       label: 'A living landscape to translate current news related to video games',
-      url: 'https://stories.dataveyes.com/a-living-landscape-to-translate-current-news-related-to-video-games-36c78c1d638f'
+      url: 'https://stories.JanoRoze.com/a-living-landscape-to-translate-current-news-related-to-video-games-36c78c1d638f'
     },
     fr: {
       label: 'Un paysage vivant pour traduire l’actualité dans l’univers du jeu vidéo',
-      url: 'https://medium.com/dataveyes-stories-vf/un-paysage-vivant-pour-traduire-lactualit%C3%A9-dans-l-univers-du-jeu-vid%C3%A9o-3c62d6352595'
+      url: 'https://medium.com/JanoRoze-stories-vf/un-paysage-vivant-pour-traduire-lactualit%C3%A9-dans-l-univers-du-jeu-vid%C3%A9o-3c62d6352595'
     }
   },
   category: {

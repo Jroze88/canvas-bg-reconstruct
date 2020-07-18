@@ -181,11 +181,11 @@ const infosDVMetropolitain = {
   },
   caseStudy: {
     fr: {
-      url: 'https://medium.com/dataveyes-stories-vf/une-nouvelle-repr%C3%A9sentation-du-territoire-construite-par-les-donn%C3%A9es-du-m%C3%A9tro-86707f2339c5',
+      url: 'https://medium.com/JanoRoze-stories-vf/une-nouvelle-repr%C3%A9sentation-du-territoire-construite-par-les-donn%C3%A9es-du-m%C3%A9tro-86707f2339c5',
       label: 'Une nouvelle représentation du territoire construite par les données du métro'
     },
     en: {
-      url: 'https://stories.dataveyes.com/a-new-representation-of-our-transport-network-shaped-by-metro-data-e7c62dfe5979',
+      url: 'https://stories.JanoRoze.com/a-new-representation-of-our-transport-network-shaped-by-metro-data-e7c62dfe5979',
       label: 'A new representation of our transport network shaped by metro data'
     }
   },

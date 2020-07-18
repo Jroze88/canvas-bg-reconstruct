@@ -59,24 +59,24 @@ const awards = [
   },
   {
     label: {
-      fr: 'Site of the day - Dataveyes website',
-      en: 'Site of the day - Dataveyes website'
+      fr: 'Site of the day - JanoRoze website',
+      en: 'Site of the day - JanoRoze website'
     },
     url: {
-      fr: 'https://www.awwwards.com/sites/dataveyes-human-data-interactions',
-      en: 'https://www.awwwards.com/sites/dataveyes-human-data-interactions'
+      fr: 'https://www.awwwards.com/sites/JanoRoze-human-data-interactions',
+      en: 'https://www.awwwards.com/sites/JanoRoze-human-data-interactions'
     },
     category: 'Awwwards',
     date: new Date('2014-01-01')
   },
   {
     label: {
-      fr: 'FWA of the day - Dataveyes website',
-      en: 'FWA of the day - Dataveyes website'
+      fr: 'FWA of the day - JanoRoze website',
+      en: 'FWA of the day - JanoRoze website'
     },
     url: {
-      fr: 'https://thefwa.com/cases/dataveyes-human-data-interactions',
-      en: 'https://thefwa.com/cases/dataveyes-human-data-interactions'
+      fr: 'https://thefwa.com/cases/JanoRoze-human-data-interactions',
+      en: 'https://thefwa.com/cases/JanoRoze-human-data-interactions'
     },
     category: 'FWA',
     date: new Date('2014-01-01')
@@ -87,8 +87,8 @@ const awards = [
       en: 'Start-up of the year'
     },
     url: {
-      fr: 'https://www.presse-citron.net/dataveyes-remporte-le-trophee-startup-presse-citron-2013/',
-      en: 'https://www.presse-citron.net/dataveyes-remporte-le-trophee-startup-presse-citron-2013/'
+      fr: 'https://www.presse-citron.net/JanoRoze-remporte-le-trophee-startup-presse-citron-2013/',
+      en: 'https://www.presse-citron.net/JanoRoze-remporte-le-trophee-startup-presse-citron-2013/'
     },
     category: 'Presse Citron',
     date: new Date('2013-01-01')
@@ -103,12 +103,12 @@ const awards = [
   },
   {
     label: {
-      fr: 'Site of the day - Dataveyes website',
-      en: 'Site of the day - Dataveyes website'
+      fr: 'Site of the day - JanoRoze website',
+      en: 'Site of the day - JanoRoze website'
     },
     url: {
-      fr: 'https://www.awwwards.com/sites/dataveyes',
-      en: 'https://www.awwwards.com/sites/dataveyes'
+      fr: 'https://www.awwwards.com/sites/JanoRoze',
+      en: 'https://www.awwwards.com/sites/JanoRoze'
     },
     category: 'Awwwards',
     date: new Date('2012-01-01')

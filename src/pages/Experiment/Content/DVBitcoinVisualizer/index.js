@@ -38,7 +38,7 @@ const DVBitcoinVisualizer = ({ isDarkTheme }) => {
         <Chapo>
           {
             isFr
-              ? 'Nous avons conçu et développé une visualisation ambiante pour montrer aux spectateurs la blockchain Bitcoin, ses transactions et ses blocs. Cette expérience rend visible le rythme de vie de la blockchain, comme la création de nouveaux blocs et l’absorption des transactions en leur sein. Au croisement des compétences de Dataveyes, ce projet montre comment une visualisation esthétique peut aider à faire comprendre des concepts complexes.'
+              ? 'Nous avons conçu et développé une visualisation ambiante pour montrer aux spectateurs la blockchain Bitcoin, ses transactions et ses blocs. Cette expérience rend visible le rythme de vie de la blockchain, comme la création de nouveaux blocs et l’absorption des transactions en leur sein. Au croisement des compétences de JanoRoze, ce projet montre comment une visualisation esthétique peut aider à faire comprendre des concepts complexes.'
               : 'We designed and developed an ambient visualization to explain the Bitcoin blockchain, and to show viewers its transactions and blocks. It makes the pace of blockchain more visible and demonstrates the creation of new blocks and the absorption of transactions within them. This project showcases our vast skill sets to show how an aesthetic visualization can help explain complex concepts.'
           }
         </Chapo>

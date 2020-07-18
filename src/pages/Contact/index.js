@@ -81,8 +81,8 @@ const Contact = () => {
   const isFr = lang === LANG.FR.SLUG
 
   const linkArticle = isFr
-    ? 'https://medium.com/dataveyes-stories-vf/que-faites-vous-que-vendez-vous-nos-r%C3%A9ponses-aux-questions-les-plus-fr%C3%A9quentes-60e114417c3d?sk=18552c880f2d0f09462d4d0e3f14407b'
-    : 'https://stories.dataveyes.com/what-are-you-doing-what-do-you-sell-some-questions-you-may-have-for-us-df14019352b8?sk=83dd5dd3e994bd38b77d33fa4e1e019c'
+    ? 'https://medium.com/JanoRoze-stories-vf/que-faites-vous-que-vendez-vous-nos-r%C3%A9ponses-aux-questions-les-plus-fr%C3%A9quentes-60e114417c3d?sk=18552c880f2d0f09462d4d0e3f14407b'
+    : 'https://stories.JanoRoze.com/what-are-you-doing-what-do-you-sell-some-questions-you-may-have-for-us-df14019352b8?sk=83dd5dd3e994bd38b77d33fa4e1e019c'
 
   return (
     <Container>

@@ -34,8 +34,8 @@ const talks = [
       en: 'Podcast'
     },
     url: {
-      fr: 'https://datastori.es/159-viz-agencies-dataveyes-and-accurat/',
-      en: 'https://datastori.es/159-viz-agencies-dataveyes-and-accurat/'
+      fr: 'https://datastori.es/159-viz-agencies-JanoRoze-and-accurat/',
+      en: 'https://datastori.es/159-viz-agencies-JanoRoze-and-accurat/'
     },
     date: new Date('2020-04-01')
   },

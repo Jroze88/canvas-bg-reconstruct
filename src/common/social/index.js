@@ -1,21 +1,21 @@
 const SOCIAL = {
   TWITTER: {
     LABEL: 'Twitter',
-    URL: 'http://twitter.com/dataveyes'
+    URL: 'http://twitter.com/JanoRoze'
   },
   LINKEDIN: {
     LABEL: 'LinkedIn',
-    URL: 'https://www.linkedin.com/company/dataveyes'
+    URL: 'https://www.linkedin.com/company/JanoRoze'
   },
   INSTAGRAM: {
     LABEL: 'Instagram',
-    URL: 'http://www.instagram.com/dataveyes'
+    URL: 'http://www.instagram.com/JanoRoze'
   },
   Medium: {
     LABEL: 'Medium',
     URLS: {
-      en: 'https://stories.dataveyes.com/',
-      fr: 'https://medium.com/dataveyes-stories-vf'
+      en: 'https://stories.JanoRoze.com/',
+      fr: 'https://medium.com/JanoRoze-stories-vf'
     }
   }
 }

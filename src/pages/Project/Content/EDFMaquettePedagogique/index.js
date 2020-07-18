@@ -210,11 +210,11 @@ const infosEDFMaquettePedagogique = {
   caseStudy: {
     en: {
       label: 'An educational simulator to understand the concept of energy flexibility',
-      url: 'https://stories.dataveyes.com/an-educational-simulator-to-understand-the-concept-of-energy-flexibility-9f98dbfe97f2'
+      url: 'https://stories.JanoRoze.com/an-educational-simulator-to-understand-the-concept-of-energy-flexibility-9f98dbfe97f2'
     },
     fr: {
       label: 'Un simulateur pédagogique pour comprendre la flexibilité énergétique',
-      url: 'https://medium.com/dataveyes-stories-vf/un-simulateur-p%C3%A9dagogique-pour-comprendre-la-flexibilit%C3%A9-%C3%A9nerg%C3%A9tique-86bec2f68a70'
+      url: 'https://medium.com/JanoRoze-stories-vf/un-simulateur-p%C3%A9dagogique-pour-comprendre-la-flexibilit%C3%A9-%C3%A9nerg%C3%A9tique-86bec2f68a70'
     }
   },
   category: {

@@ -7,7 +7,7 @@ const HelmetWithWording = ({ wording, values }) => {
   const title = intl.formatMessage({ id: wording + '-title' }, values)
   const description = intl.formatMessage({ id: wording + '-description' }, values)
 
-  const imgPath = 'https://dataveyes.com/img.social.jpg'
+  const imgPath = 'https://JanoRoze.com/img.social.jpg'
 
   return (
     <Helmet>
@@ -18,7 +18,7 @@ const HelmetWithWording = ({ wording, values }) => {
       <meta property='og:image' content={imgPath} />
       <meta property='og:type' content='website' />
       <meta name='twitter:card' content='summary' />
-      <meta name='twitter:creator' content='@dataveyes' />
+      <meta name='twitter:creator' content='@JanoRoze' />
       <meta name='twitter:image' content={imgPath} />
     </Helmet>
   )
