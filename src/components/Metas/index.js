@@ -1,11 +1,11 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
-import { useIntl } from 'react-intl'
+// import { useIntl } from 'react-intl'
 
 const HelmetWithWording = ({ wording, values }) => {
-  const intl = useIntl()
-  const title = intl.formatMessage({ id: wording + '-title' }, values)
-  const description = intl.formatMessage({ id: wording + '-description' }, values)
+  // const intl = useIntl()
+  const title = 'poo'
+  const description = 'caca'
 
   const imgPath = 'https://JanoRoze.com/img.social.jpg'
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
-import { useIntl } from 'react-intl'
+// import { useIntl } from 'react-intl'
 import PropTypes from 'prop-types'
 
 import { Paragraph1 } from '../../components/Paragraphs'
@@ -20,7 +20,7 @@ const ListText = styled(Paragraph1)(({ theme }) => css`
 `)
 
 const ListOf = ({ ids, texts }) => {
-  const intl = useIntl()
+  // const intl = useIntl()
 
   return (
     <List>
@@ -29,7 +29,7 @@ const ListOf = ({ ids, texts }) => {
           ? ids.map((d) => (
             <ListItem key={d}>
               <ListText>
-                {intl.messages[d]}
+                {/* {intl.messages[d]} */}
               </ListText>
             </ListItem>))
           : texts.map((text, index) => (

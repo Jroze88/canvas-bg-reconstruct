@@ -10,7 +10,7 @@ import { withTheme } from 'emotion-theming'
 import projects from '../../pages/Projects/projects'
 import { PSmall, Paragraph1 } from '../../components/Paragraphs'
 import { Title4 } from '../../components/Titles'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 import mq from '../../common/styles/breakpoints'
 import Link from '../../components/Links'
 import ROUTES from '../../common/routes'
@@ -148,7 +148,7 @@ const RelatedCaseStudy = ({ slug, theme }) => {
   return (
     <MainContainer>
       <Title>
-        <FormattedMessage id='related-case-study-title' />
+        {/* <FormattedMessage id='related-case-study-title' /> */}
       </Title>
       <Container>
         <TextZone>
@@ -160,7 +160,7 @@ const RelatedCaseStudy = ({ slug, theme }) => {
           </Chapo>
           <LinkStyled to={`/${lang}/${ROUTES.PROJECTS.PATH}/${project.slug}`}>
             <Paragraph1>
-              <FormattedMessage id='related-case-study-link' />
+              {/* <FormattedMessage id='related-case-study-link' /> */}
             </Paragraph1>
             <ArrowRightStyled color={theme.tonic} />
           </LinkStyled>

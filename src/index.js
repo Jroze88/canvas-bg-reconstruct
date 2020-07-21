@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import Modal from 'react-modal'
+import './common/styles/css/styles.css'
 
 const rootElement = document.getElementById('root')
 

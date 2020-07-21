@@ -2,8 +2,8 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 
 import { LinkMore } from '../../components/Links'
-import ListTable, { TitleLeft, ListContainerRight } from '../../components/ListTable'
-import { FormattedMessage, useIntl } from 'react-intl'
+// import ListTable, { TitleLeft, ListContainerRight } from '../../components/ListTable'
+// import { FormattedMessage, useIntl } from 'react-intl'
 
 const headers = [{ id: 'label', isHighlighted: true }, { id: 'date', dateFormat: 'MMM yyyy', isHighlighted: false }]
 const publications = [
@@ -96,7 +96,7 @@ const publications = [
 ]
 
 const Publications = ({ maxItems, isDarkTheme }) => {
-  const intl = useIntl()
+  // const intl = useIntl()
   const { lang } = useParams()
   const filteredPublications = publications.filter((d) => d.label[lang])
   const listPublications = maxItems
@@ -105,7 +105,7 @@ const Publications = ({ maxItems, isDarkTheme }) => {
   if (!listPublications.length) return null
   return (
     <>
-      <TitleLeft>
+      {/* <TitleLeft>
         <FormattedMessage id='last-publications-title' />
       </TitleLeft>
       <ListContainerRight>
@@ -123,7 +123,7 @@ const Publications = ({ maxItems, isDarkTheme }) => {
             <FormattedMessage id='last-publications-link-label' />
           </LinkMore>
         )}
-      </ListContainerRight>
+      </ListContainerRight> */}
     </>
   )
 }

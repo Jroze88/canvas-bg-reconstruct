@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
 import { map } from 'lodash'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 
 import Link, { LinkMore } from '../../components/Links'
 import { Paragraph1 } from '../../components/Paragraphs'
@@ -117,7 +117,7 @@ const JobsList = ({ jobs, maxItems, withSummary }) => {
               </Cell3>
               <Cell4>
                 <LinkArrow to={`/${lang}/${ROUTES.JOBS.SLUG_INDEX}/${job.slug}`}>
-                  <FormattedMessage id='last-jobs-apply' />
+                  {/* <FormattedMessage id='last-jobs-apply' /> */}
                   <ArrowRight />
                 </LinkArrow>
               </Cell4>
@@ -128,7 +128,7 @@ const JobsList = ({ jobs, maxItems, withSummary }) => {
       })}
       {maxItems && jobs.length > maxItems && (
         <LinkMore to={`/${lang}/${ROUTES.JOBS.SLUG_INDEX}`} target='_blank'>
-          <FormattedMessage id='last-jobs-link-label' />
+          {/* <FormattedMessage id='last-jobs-link-label' /> */}
         </LinkMore>
       )}
     </>

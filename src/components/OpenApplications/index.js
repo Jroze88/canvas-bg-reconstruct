@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 
 import mq from '../../common/styles/breakpoints'
 
@@ -28,15 +28,15 @@ const ContainerRight = styled.div(({ theme }) => css`
 const OpenApplications = () => (
   <>
     <TitleLeft>
-      <FormattedMessage id='jobs-applications-title' />
+      {/* <FormattedMessage id='jobs-applications-title' /> */}
     </TitleLeft>
     <ContainerRight>
       <Text>
-        <FormattedMessage id='jobs-applications-text' />
+        {/* <FormattedMessage id='jobs-applications-text' /> */}
       </Text>
       <ButtonContact
         alignLeft
-        label={<FormattedMessage id='jobs-applications-button' />}
+        // label={<FormattedMessage id='jobs-applications-button' />}
         email='jobs@JanoRoze.com'
       />
     </ContainerRight>

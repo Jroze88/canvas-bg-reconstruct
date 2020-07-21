@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { FormattedMessage, useIntl } from 'react-intl'
+// import { FormattedMessage, useIntl } from 'react-intl'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
 
@@ -30,16 +30,16 @@ const MainTitleDelChapo = styled(Title2)`
 `
 
 const Section = ({ serviceKey }) => {
-  const service = services[serviceKey]
-  const intl = useIntl()
-  const { lang } = useParams()
-  const messagesKeys = Object.keys(intl.messages)
-  const serviceType = service.id
-  const concernIds = messagesKeys.filter(d => d.startsWith(`${serviceType}-concern`))
-  const expertiseIds = messagesKeys.filter(d => d.startsWith(`${serviceType}-expertise`))
+  // const service = services[serviceKey]
+  // const intl = useIntl()
+  // const { lang } = useParams()
+  // const messagesKeys = Object.keys(intl.messages)
+  // const serviceType = service.id
+  // const concernIds = messagesKeys.filter(d => d.startsWith(`${serviceType}-concern`))
+  // const expertiseIds = messagesKeys.filter(d => d.startsWith(`${serviceType}-expertise`))
   return (
     <BlockContainer>
-      <About>
+      {/* <About>
         <MainTitleDelChapo>
           {service.label[lang]}
         </MainTitleDelChapo>
@@ -64,7 +64,7 @@ const Section = ({ serviceKey }) => {
         </Title4Styled>
         <ListOf ids={expertiseIds} />
       </List2>
-      <RelatedCaseStudy slug={service.projectSlug} />
+      <RelatedCaseStudy slug={service.projectSlug} /> */}
     </BlockContainer>
   )
 }

@@ -1,63 +1,63 @@
 import React from 'react'
 import { map } from 'lodash'
 import { useParams } from 'react-router-dom'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 import { css } from '@emotion/core'
 import styled from '@emotion/styled'
 
-import { Title3 } from '../../components/Titles'
-import Metas from '../../components/Metas'
-import PageHeader from '../../components/PageHeader'
-import Archives from '../../components/Archives'
-import Carousel from '../../components/Carousel'
-import Link from '../../components/Links'
+// import { Title3 } from '../../components/Titles'
+// import Metas from '../../components/Metas'
+// import PageHeader from '../../components/PageHeader'
+// import Archives from '../../components/Archives'
+// import Carousel from '../../components/Carousel'
+// import Link from '../../components/Links'
 import GridContainer from '../../components/GridContainer'
 
-import mq from '../../common/styles/breakpoints'
-import ROUTES from '../../common/routes'
-import layout from '../../common/configs/layout'
-import ExperimentIcon from '../../assets/icons/Experiment'
+// import mq from '../../common/styles/breakpoints'
+// import ROUTES from '../../common/routes'
+// import layout from '../../common/configs/layout'
+// import ExperimentIcon from '../../assets/icons/Experiment'
 
-import projects from '../../pages/Projects/projects'
-import archives from '../../pages/Projects/archives'
+// import projects from '../../pages/Projects/projects'
+// import archives from '../../pages/Projects/archives'
 
 const Container = styled(GridContainer)(({ theme }) => css`
   padding-bottom: ${theme.spacingL}px;
 `)
 
-const CategoryLinkContainer = styled(Link)(({ theme }) => css`
-  grid-column: 9 / none;
-  display: flex;
-  align-items: center;
-  margin-top: ${theme.spacingXL}px;
-  margin-bottom: ${theme.spacingL}px;
-  ${mq('small')} {
-    flex-direction: column-reverse;
-    grid-column: 2 / -2;
-    text-align: center;
-  }
-`)
+// const CategoryLinkContainer = styled(Link)(({ theme }) => css`
+//   grid-column: 9 / none;
+//   display: flex;
+//   align-items: center;
+//   margin-top: ${theme.spacingXL}px;
+//   margin-bottom: ${theme.spacingL}px;
+//   ${mq('small')} {
+//     flex-direction: column-reverse;
+//     grid-column: 2 / -2;
+//     text-align: center;
+//   }
+// `)
 
-const ExperimentIconContainer = styled.span(({ theme }) => css`
-  margin-left: ${theme.spacingXS}px;
-  ${mq('small')} {
-    margin-bottom: ${theme.spacingM}px;
-    margin-left: 0;
-  }
-`)
+// const ExperimentIconContainer = styled.span(({ theme }) => css`
+//   margin-left: ${theme.spacingXS}px;
+//   ${mq('small')} {
+//     margin-bottom: ${theme.spacingM}px;
+//     margin-left: 0;
+//   }
+// `)
 
-const headers = [
-  { id: 'label', isHighlighted: true },
-  { id: 'category', isHighlighted: false },
-  { id: 'client', isHighlighted: false },
-  { id: 'year', isHighlighted: false }
-]
+// const headers = [
+//   { id: 'label', isHighlighted: true },
+//   { id: 'category', isHighlighted: false },
+//   { id: 'client', isHighlighted: false },
+//   { id: 'year', isHighlighted: false }
+// ]
 
 const Projects = () => {
-  const { lang } = useParams()
+  // const { lang } = useParams()
   return (
     <Container>
-      <Metas wording='projects' />
+      {/* <Metas wording='projects' />
       <PageHeader
         isDarkTheme={layout.PROJECTS.isHeaderDark}
         titleMain={<FormattedMessage id='projects-main-title' />}
@@ -84,7 +84,7 @@ const Projects = () => {
           <ExperimentIcon />
         </ExperimentIconContainer>
       </CategoryLinkContainer>
-      <Archives columns='6fr 4fr 3fr 5fr' list={archives} headers={headers} />
+      <Archives columns='6fr 4fr 3fr 5fr' list={archives} headers={headers} /> */}
     </Container>
   )
 }

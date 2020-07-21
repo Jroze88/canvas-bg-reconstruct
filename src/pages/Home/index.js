@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
 
@@ -76,18 +76,18 @@ const Home = () => {
         <HeaderContainer>
           <VizAboutContainer>
             <VizAboutText>
-              <FormattedMessage id='home-chart-legend' />
+              {/* <FormattedMessage id='home-chart-legend' /> */}
             </VizAboutText>
           </VizAboutContainer>
           <Intro>
             <Paragraph2>
-              <FormattedMessage
+              {/* <FormattedMessage
                 id='home-intro'
                 values={{
                   strong: (...chunks) => <strong>{chunks}</strong>,
                   linebreak: <br />
                 }}
-              />
+              /> */}
             </Paragraph2>
           </Intro>
         </HeaderContainer>

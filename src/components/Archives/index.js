@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
-import { FormattedMessage } from 'react-intl'
 
 // components
 import { Title4 } from '../../components/Titles'
@@ -27,7 +26,7 @@ const Archives = ({ list, headers, isDarkTheme, columns }) => {
   return (
     <>
       <Title>
-        <FormattedMessage id='archives-title' />
+    
       </Title>
       <ListContainer>
         <ListTable

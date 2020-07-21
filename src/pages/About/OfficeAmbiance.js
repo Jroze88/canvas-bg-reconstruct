@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 
 // photos
 import galleryImg1 from '././assets/gallery_img1.jpg'
@@ -89,7 +89,7 @@ const Portraits = () => {
     <Container>
       {/* line 1 */}
       <Cell1>
-        <FormattedMessage id='about-legend-gallery1' />
+        {/* <FormattedMessage id='about-legend-gallery1' /> */}
       </Cell1>
       <Cell2>
         <ImageRatio width={338} height={400} src={galleryImg1} />
@@ -115,7 +115,7 @@ const Portraits = () => {
         <ImageRatio width={338} height={400} src={galleryImg7} />
       </Cell3>
       <Cell9>
-        <FormattedMessage id='about-legend-gallery2' />
+        {/* <FormattedMessage id='about-legend-gallery2' /> */}
       </Cell9>
 
       {/* line 3 */}
@@ -137,7 +137,7 @@ const Portraits = () => {
 
       {/* line 4 */}
       <Cell1>
-        <FormattedMessage id='about-legend-gallery3' />
+        {/* <FormattedMessage id='about-legend-gallery3' /> */}
       </Cell1>
       <Cell11>
         <ImageRatio width={680} height={400} src={galleryImg13} />

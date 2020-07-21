@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 
 import { Paragraph1, PSmall } from '../../components/Paragraphs'
 import Link from '../../components/Links'
@@ -53,7 +53,7 @@ const Infos = ({ project, isDark }) => {
         project.client && (
           <Meta>
             <Title>
-              <FormattedMessage id='project-meta-client' />
+              {/* <FormattedMessage id='project-meta-client' /> */}
             </Title>
             <Paragraph1>
               {project.client[lang]}
@@ -65,7 +65,7 @@ const Infos = ({ project, isDark }) => {
         project.date && (
           <Meta>
             <Title>
-              <FormattedMessage id='project-meta-date' />
+              {/* <FormattedMessage id='project-meta-date' /> */}
             </Title>
             <Paragraph1>
               {project.date[lang]}
@@ -77,9 +77,9 @@ const Infos = ({ project, isDark }) => {
         project.results && (
           <Meta>
             <Title>
-              <FormattedMessage id='project-meta-results' />
+              {/* <FormattedMessage id='project-meta-results' /> */}
             </Title>
-            <Paragraph1>{project.results[lang]}</Paragraph1>
+            {/* <Paragraph1>{project.results[lang]}</Paragraph1> */}
           </Meta>
         )
       }
@@ -87,7 +87,7 @@ const Infos = ({ project, isDark }) => {
         project.src && (
           <Meta>
             <Title>
-              <FormattedMessage id='project-meta-launch' />
+              {/* <FormattedMessage id='project-meta-launch' /> */}
             </Title>
             <Paragraph1>
               <ProjectLink target='_blank' href={project.src.url}>
@@ -101,11 +101,11 @@ const Infos = ({ project, isDark }) => {
         project.caseStudy && project.caseStudy[lang] && (
           <Meta>
             <Title>
-              <FormattedMessage id='project-meta-case-study' />
+              {/* <FormattedMessage id='project-meta-case-study' /> */}
             </Title>
             <Paragraph1>
               <Link target='_blank' href={project.caseStudy[lang].url}>
-                {project.caseStudy[lang].label}
+                {/* {project.caseStudy[lang].label} */}
               </Link>
             </Paragraph1>
           </Meta>

@@ -1,4 +1,4 @@
-import { IntlProvider } from 'react-intl'
+// import { IntlProvider } from 'react-intl'
 import { withRouter } from 'react-router-dom'
 import { compose, withProps } from 'recompose'
 

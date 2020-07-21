@@ -1,6 +1,6 @@
 import React from 'react'
 import { map } from 'lodash'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 import { useParams } from 'react-router-dom'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
@@ -26,7 +26,7 @@ const ProjectsHighlight = () => {
   return (
     <Container>
       <TitleModule>
-        <FormattedMessage id='home-projects-title' />
+        {/* <FormattedMessage id='home-projects-title' /> */}
       </TitleModule>
       {map(projectsHighlighted, (project, index) => (
         <Carousel

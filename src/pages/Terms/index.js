@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
 
@@ -32,74 +32,7 @@ const Title3Styled = styled(Title3)(({ theme }) => css`
 const Terms = () => {
   return (
     <GridContainer>
-      <PageHeader
-        isDarkTheme={layout.TERMS.isHeaderDark}
-        titleMain={<FormattedMessage id='terms-main-title' />}
-      />
-      <Container>
-        <RightCol>
-          <Block>
-            <FormattedMessage id='terms-intro' />
-          </Block>
-          <Title2Styled>
-            <FormattedMessage id='terms-title-1' />
-          </Title2Styled>
-          <Title3Styled>
-            <FormattedMessage id='terms-title-1-1' />
-          </Title3Styled>
-          <Block>
-            <FormattedMessage id='terms-content-1-1' />
-          </Block>
-          <Title3Styled>
-            <FormattedMessage id='terms-title-1-2' />
-          </Title3Styled>
-          <Block>
-            <FormattedMessage id='terms-content-1-2' />
-          </Block>
-          <Title3Styled>
-            <FormattedMessage id='terms-title-1-3' />
-          </Title3Styled>
-          <Block>
-            <FormattedMessage id='terms-content-1-3' />
-          </Block>
-          <Title2Styled>
-            <FormattedMessage id='terms-title-2' />
-          </Title2Styled>
-          <Title3Styled>
-            <FormattedMessage id='terms-title-2-1' />
-          </Title3Styled>
-          <Block>
-            <FormattedMessage id='terms-content-2-1' />
-          </Block>
-          <Title3Styled>
-            <FormattedMessage id='terms-title-2-2' />
-          </Title3Styled>
-          <Block>
-            <FormattedMessage id='terms-content-2-2-1' />
-          </Block>
-          <Block>
-            <FormattedMessage id='terms-content-2-2-2' />
-          </Block>
-          <Title3Styled>
-            <FormattedMessage id='terms-title-2-3' />
-          </Title3Styled>
-          <Block>
-            <FormattedMessage id='terms-content-2-3' />
-          </Block>
-          <Title3Styled>
-            <FormattedMessage id='terms-title-2-4' />
-          </Title3Styled>
-          <Block>
-            <FormattedMessage id='terms-content-2-4' />
-          </Block>
-          <Title3Styled>
-            <FormattedMessage id='terms-title-2-5' />
-          </Title3Styled>
-          <Block>
-            <FormattedMessage id='terms-content-2-5' />
-          </Block>
-        </RightCol>
-      </Container>
+      
     </GridContainer>
   )
 }

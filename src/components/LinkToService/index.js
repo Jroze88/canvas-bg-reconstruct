@@ -2,7 +2,8 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
+
 
 import { Title3 } from '../../components/Titles'
 import { Paragraph1 } from '../../components/Paragraphs'
@@ -26,7 +27,7 @@ const ToServiceContainer = styled.div(({ theme }) => css`
     margin-bottom: ${theme.spacingL}px;
   }
 `)
-
+const FormattedMessage = 'poo'
 const OurServices = styled(Title3)(({ theme }) => css`
   color: ${theme.secondary};
 `)

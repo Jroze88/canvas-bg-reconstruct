@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { FormattedMessage, useIntl } from 'react-intl'
+// import { FormattedMessage, useIntl } from 'react-intl'
+
 import { CopyToClipboard } from 'react-copy-to-clipboard'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
@@ -7,7 +8,7 @@ import { useSpring, animated } from 'react-spring'
 
 import ButtonLabel from '../../components/Buttons/ButtonLabel'
 import mq from '../../common/styles/breakpoints'
-
+const FormattedMessage = 'poo'
 const Container = styled.div(({ theme, alignLeft }) => css`
   position: relative;
   display: flex;
@@ -56,8 +57,8 @@ const ButtonContainer = styled(animated.div)(({ theme }) => css`
 const ButtonContact = ({ alignLeft, label, email }) => {
   const [isOpen, setOpen] = useState(false)
   const [isCopied, setCopied] = useState(false)
-  const intl = useIntl()
-  const emailValue = email || intl.messages['contact-button-email']
+  // const intl = useIntl()
+  const emailValue = email || 'poop'
   let timer = null
   const config = { mass: 0.8, tension: 800, friction: 40 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import ListTable, { TitleLeft, ListContainerRight } from '../../components/ListTable'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 
 const headers = [
   { id: 'label', isHighlighted: true },
@@ -423,7 +423,7 @@ const Talks = ({ isDarkTheme }) => {
   return (
     <>
       <TitleLeft>
-        <FormattedMessage id='last-talks-title' />
+        {/* <FormattedMessage id='last-talks-title' /> */}
       </TitleLeft>
       <ListContainerRight>
         <ListTable

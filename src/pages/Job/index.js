@@ -2,7 +2,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { find } from 'lodash'
 import styled from '@emotion/styled'
-import { FormattedMessage, useIntl } from 'react-intl'
+// import { FormattedMessage, useIntl } from 'react-intl'
 import { css } from '@emotion/core'
 
 import ROUTES from '../../common/routes'
@@ -36,12 +36,12 @@ const TitleContact = styled(Paragraph2)(({ theme }) => css`
 
 // Common template for a single job page
 const Job = () => {
-  const { jobSlug, lang } = useParams()
-  const job = find(jobs, j => j.slug === jobSlug)
-  const { messages } = useIntl()
+  // const { jobSlug, lang } = useParams()
+  // const job = find(jobs, j => j.slug === jobSlug)
+  // const { messages } = useIntl()
   return (
     <GridContainer>
-      <Metas
+      {/* <Metas
         wording='job'
         values={{
           LABEL: job.label[lang]
@@ -59,7 +59,7 @@ const Job = () => {
           <FormattedMessage id='job-contact' />
         </TitleContact>
         <ButtonContact />
-      </ContactContainer>
+      </ContactContainer> */}
     </GridContainer>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
+
 import { map, upperCase } from 'lodash'
 import { useParams } from 'react-router-dom'
 import styled from '@emotion/styled'
@@ -19,7 +20,7 @@ import grid, { maxWidth } from '../../components/Layout'
 const FooterContainer = styled.div(({ theme, isDarkTheme }) => css`
   background: ${isDarkTheme ? theme.black : theme.white};
 `)
-
+const FormattedMessage = 'poo'
 const FooterInnerContainer = styled.div(({ theme, isDarkTheme }) => css`
   ${grid}
   ${maxWidth}

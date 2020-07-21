@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
+
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
 
@@ -21,7 +22,7 @@ const StyledLinkMore = styled(LinkMore)(({ theme }) => {
     margin-top: ${theme.spacingM}px;
   `
 })
-
+const FormattedMessage = 'poo'
 const LastActivities = ({ maxItems }) => {
   const { lang } = useParams()
   const sortedActivities = [

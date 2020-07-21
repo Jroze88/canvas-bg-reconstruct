@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 import mq from '../../common/styles/breakpoints'
 
 import layout from '../../common/configs/layout'
@@ -62,7 +62,7 @@ const VizAndPortraits = () => {
             )
           }
           <VizLegend>
-            <FormattedMessage id='about-legend-viz' />
+            {/* <FormattedMessage id='about-legend-viz' /> */}
           </VizLegend>
         </StickyZone>
       </LeftCol>
@@ -80,8 +80,8 @@ const About = () => {
       <Metas wording='about' />
       <PageHeader
         isDarkTheme={layout.ABOUT.isHeaderDark}
-        titleMain={<FormattedMessage id='about-main-title' />}
-        chapo={<FormattedMessage id='about-chapo' />}
+        // titleMain={<FormattedMessage id='about-main-title' />}
+        // chapo={<FormattedMessage id='about-chapo' />}
         noBorder
       />
       <VizAndPortraits />
@@ -91,11 +91,11 @@ const About = () => {
         isJobs && (
           <>
             <TitleContact>
-              <FormattedMessage id='about-contact-title' />
+              {/* <FormattedMessage id='about-contact-title' /> */}
             </TitleContact>
             <ContactContainer>
               <ButtonLabel large to={ROUTES.JOBS.SLUG_INDEX}>
-                <FormattedMessage id='about-contact-button' />
+                {/* <FormattedMessage id='about-contact-button' /> */}
               </ButtonLabel>
             </ContactContainer>
           </>

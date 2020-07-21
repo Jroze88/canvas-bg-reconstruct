@@ -15,7 +15,7 @@ import { ThemeProvider } from 'emotion-theming'
 import 'react-medium-image-zoom/dist/styles.css'
 
 // common
-import ConnectedIntlProvider from './common/wording/intl'
+// import ConnectedIntlProvider from './common/wording/intl'
 import theme from './common/styles/theme'
 import ROUTES, { PATH } from './common/routes'
 import LANG from './common/wording/lang'
@@ -68,7 +68,7 @@ const AppWithLang = () => {
   const config = getPageConfig(location, PATH.LANG)
 
   return (
-    <ConnectedIntlProvider>
+    <>
       <GlobalStyles isBodyDark={config.isBodyDark} disableOverflow={config.disableOverflow} />
       <ScrollManagement />
       <Metas wording='main' />
@@ -119,7 +119,7 @@ const AppWithLang = () => {
         <Redirect to={`/${PATH.LANG}/${ROUTES.NOT_FOUND.PATH}`} />
       </Switch>
       <Footer isDarkTheme />
-    </ConnectedIntlProvider>
+    </>
   )
 }
 

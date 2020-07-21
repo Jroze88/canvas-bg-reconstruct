@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
 import { useParams } from 'react-router-dom'
@@ -100,7 +100,7 @@ const Guidelines = () => {
   const { lang } = useParams()
   return (
     <GridContainer>
-      <PageHeader
+      {/* <PageHeader
         titleMain={<FormattedMessage id='guidelines-main-title' />}
         noBorder
       />
@@ -180,7 +180,7 @@ const Guidelines = () => {
             <ButtonContact alignLeft />
           </ContactContainer>
         </Right>
-      </BlockContainer>
+      </BlockContainer> */}
     </GridContainer>
   )
 }

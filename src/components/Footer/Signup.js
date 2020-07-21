@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
+
 
 import { Title3 } from '../../components/Titles'
 import ButtonLabel from '../../components/Buttons/ButtonLabel'
@@ -22,7 +23,7 @@ const Container = styled.div(({ theme }) => css`
     margin-bottom: ${theme.spacingS}px;
   }
 `)
-
+const FormattedMessage = 'poo'
 const Title = styled(Title3)(({ theme }) => css`
   grid-row: 2;
   grid-column: 9 / -1;

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 
 import JobsList from '../../components/OpenPositions/JobsList'
 import { TitleLeft, ListContainerRight } from '../../components/ListTable'
@@ -10,7 +10,7 @@ const OpenPositions = ({ maxItems, withSummary }) => {
   return (
     <>
       <TitleLeft>
-        <FormattedMessage id='last-jobs-title' />
+        {/* <FormattedMessage id='last-jobs-title' /> */}
       </TitleLeft>
       <ListContainerRight>
         <JobsList maxItems={maxItems} withSummary={withSummary} jobs={jobs} />

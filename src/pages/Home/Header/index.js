@@ -1,6 +1,6 @@
 import React, { useRef, useCallback, useEffect, useMemo, useState } from 'react'
 import { useTransition, animated } from 'react-spring'
-import { injectIntl } from 'react-intl'
+// import { injectIntl } from 'react-intl'
 import { Canvas } from 'react-three-fiber'
 import styled from '@emotion/styled'
 import Color from 'color'
@@ -346,44 +346,43 @@ function Header ({ capturedPoints, capturedLinks }) {
   )
 }
 
-const Title = injectIntl(
-  ({ intl, current, bg }) => {
-    const [items, set] = useState([])
+const Title = () => {
+    // const [items, set] = useState([])
+  
+    // useEffect(() => {
+    //   set({
+    //     text: 'poo',
+    //     key: `${current}`
+    //   })
+    // }, [current, set, intl])
 
-    useEffect(() => {
-      set({
-        text: intl.formatMessage({ id: `home-main-title-${current}` }),
-        key: `${current}`
-      })
-    }, [current, set, intl])
+    // const config = { mass: 1, tension: 140, friction: 40 }
 
-    const config = { mass: 1, tension: 140, friction: 40 }
-
-    const transitions = useTransition(items, {
-      config,
-      trail: 1500,
-      initial: { opacity: 0, position: 'absolute', transform: 'translate3d(10px,-50%,0)' },
-      from: { opacity: 0, position: 'absolute', transform: 'translate3d(10px,-50%,0)' },
-      enter: { opacity: 1, position: 'absolute', transform: 'translate3d(0px,-50%,0)' },
-      leave: { opacity: 0, position: 'absolute', transform: 'translate3d(-10px,-50%,0)' },
-      keys: item => item.key
-    })
+    // const transitions = useTransition(items, {
+    //   config,
+    //   trail: 1500,
+    //   initial: { opacity: 0, position: 'absolute', transform: 'translate3d(10px,-50%,0)' },
+    //   from: { opacity: 0, position: 'absolute', transform: 'translate3d(10px,-50%,0)' },
+    //   enter: { opacity: 1, position: 'absolute', transform: 'translate3d(0px,-50%,0)' },
+    //   leave: { opacity: 0, position: 'absolute', transform: 'translate3d(-10px,-50%,0)' },
+    //   keys: item => item.key
+    // })
 
     return (
       <TitleContainer>
-        <TitleHome bg={bg}>
-          <div key={current}>
-            {
+        <TitleHome >
+          {/* <div key={current}> */}
+            {/* {
               transitions((style, item) => {
                 return <animated.div style={style}>{item.text}</animated.div>
               })
-            }
-          </div>
+            } */}
+          {/* </div> */}
         </TitleHome>
       </TitleContainer>
     )
   }
-)
+
 
 const Wrapper = () => {
   const [capturedPoints, setCapturedPoints] = useState(null)

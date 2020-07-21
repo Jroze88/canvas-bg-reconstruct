@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { css } from '@emotion/core'
-import { FormattedMessage, useIntl } from 'react-intl'
+// import { FormattedMessage, useIntl } from 'react-intl'
 
 import Metas from '../../components/Metas'
 import PageHeader from '../../components/PageHeader'
@@ -18,14 +18,14 @@ const ImgContainer = styled(RightColWithGutter)(({ theme }) => css`
 `)
 
 const Jobs = () => {
-  const { formatMessage } = useIntl()
+  // const { formatMessage } = useIntl()
   return (
     <GridContainer>
       <Metas wording='jobs' />
       <PageHeader
         isDarkTheme={layout.JOBS.isHeaderDark}
-        titleMain={<FormattedMessage id='jobs-main-title' />}
-        chapo={<FormattedMessage id='jobs-chapo' />}
+        // titleMain={<FormattedMessage id='jobs-main-title' />}
+        // chapo={<FormattedMessage id='jobs-chapo' />}
         noBorder
       />
       <ImgContainer>
@@ -33,7 +33,7 @@ const Jobs = () => {
           width={1250}
           height={616}
           src={imgTeam}
-          alt={formatMessage({ id: 'img-team-alt' })}
+          // alt={formatMessage({ id: 'img-team-alt' })}
         />
       </ImgContainer>
       <OpenPositions withSummary />

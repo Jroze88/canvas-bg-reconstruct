@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedMessage, useIntl } from 'react-intl'
+// import { FormattedMessage, useIntl } from 'react-intl'
 import { useParams } from 'react-router-dom'
 import { withTheme } from 'emotion-theming'
 
@@ -70,13 +70,13 @@ const ArrowRightStyled = styled(ArrowRight)(({ theme }) => css`
 `)
 const LinkMore = withTheme(({ to, id, theme, href, target }) => (
   <LinkStyled href={href} to={to} target={target}>
-    <FormattedMessage id={id} />
+    {/* <FormattedMessage id={id} /> */}
     <ArrowRightStyled color={theme.tonic} />
   </LinkStyled>
 ))
 
 const Contact = () => {
-  const intl = useIntl()
+  // const intl = useIntl()
   const { lang } = useParams()
   const isFr = lang === LANG.FR.SLUG
 
@@ -86,49 +86,7 @@ const Contact = () => {
 
   return (
     <Container>
-      <Metas wording='contact' />
-      <PageHeader
-        isDarkTheme={layout.CONTACT.isHeaderDark}
-        titleMain={<FormattedMessage id='contact-main-title' />}
-        chapo={intl.messages['contact-chapo']}
-        noBorder
-      />
-      <LeftCol>
-        <ContactContainer>
-          <ButtonContact alignLeft />
-        </ContactContainer>
-        <Text1>
-          <FormattedMessage id='contact-address-1' /><br />
-          <FormattedMessage id='contact-address-2' /><br />
-          <FormattedMessage id='contact-address-3' />
-        </Text1>
-      </LeftCol>
-      <RightColWithGutter>
-        <Block>
-          <Title>
-            <FormattedMessage id='contact-title-1' />
-          </Title>
-          <LinkMore to={ROUTES.GUIDELINES.SLUG_INDEX} id='contact-link-1' />
-        </Block>
-        <Block>
-          <Title>
-            <FormattedMessage id='contact-title-2' />
-          </Title>
-          <LinkMore target='_blank' href={linkArticle} id='contact-link-2' />
-        </Block>
-        <Block>
-          <Title>
-            <FormattedMessage id='contact-title-3' />
-          </Title>
-          <LinkMore to={ROUTES.JOBS.SLUG_INDEX} id='contact-link-3' />
-        </Block>
-        {/* <Block>
-          <Title>
-            <FormattedMessage id='contact-title-4' />
-          </Title>
-          <LinkMore to={ROUTES.PROJECT.SLUG_INDEX} id='contact-link-4' />
-        </Block> */}
-      </RightColWithGutter>
+    
     </Container>
   )
 }

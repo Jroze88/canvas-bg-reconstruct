@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 
 import LANG from '../../../../common/wording/lang'
 import { Paragraph1 } from '../../../../components/Paragraphs'
@@ -35,130 +35,12 @@ import imgCarousel3 from '././assets/carousel/commute_img_carousel_0003.jpg'
 import imgCarousel4 from '././assets/carousel/commute_img_carousel_0004.jpg'
 
 const DVCommute = ({ isDarkTheme }) => {
-  const { lang } = useParams()
-  const isFr = lang === LANG.FR.SLUG
+  // const { lang } = useParams()
+  // const isFr = lang === LANG.FR.SLUG
   return (
     <>
       <Section>
-        <Chapo>
-          {
-            isFr
-              ? 'Commute est une expérience immersive, sonore et interactive pour explorer l’empreinte sonore d’une ligne de transport en commun.'
-              : 'Commute is an immersive, interactive audio experience that explores the sound footprint of a public transportation line.'
-          }
-        </Chapo>
-      </Section>
-      <Section>
-        <SectionTitle>
-          <FormattedMessage id='project-body-problem' />
-        </SectionTitle>
-        <Paragraph1>
-          {
-            isFr
-              ? 'Commute naquit d\'une ambition\u00A0: éveiller les consciences sur la pollution sonore subie en ville. Pour cela, nous voulions donner à voir et à entendre les bruits qui nous entourent au quotidien, et qui jouent sur notre fatigue comme notre santé.'
-              : 'The goal of Commute was to raise awareness of noise pollution in the city. We wanted to see and hear the noises that surround us each day  - noises that impact on our health and energy levels.'
-          }
-        </Paragraph1>
-      </Section>
-      <Section>
-        <SectionImage>
-          <Img src={imgBody1} />
-        </SectionImage>
-        <Section>
-          <ImgLegend>
-            {
-              isFr
-                ? 'Le mode de visualisation Wave rejoue un trajet en métro, à travers les formes, les couleurs et les sons.'
-                : 'The spiral view mode replays a metro journey through shapes, colors and sounds.'
-            }
-          </ImgLegend>
-        </Section>
-        <Section>
-          <GIFVideo uri='429918423' />
-        </Section>
-      </Section>
-      <Section>
-        <SectionTitle>
-          <FormattedMessage id='project-body-data' />
-        </SectionTitle>
-        <Paragraph1>
-          {
-            isFr
-              ? 'Armés d\'un sonomètre et d\'un enregistreur audio, nous avons parcouru de part en part toutes les lignes de métro de Paris pour constituer une première base de données sonore du transport parisien.'
-              : 'Armed with a sound level meter and an audio recorder, we rode every Paris metro line to build the first sound database of the Paris transport system.'
-          }
-        </Paragraph1>
-      </Section>
-      <Section>
-        <SectionTitle>
-          <FormattedMessage id='project-body-solution' />
-        </SectionTitle>
-        <Paragraph1>
-          {
-            isFr
-              ? 'Commute combine le visuel à l’audio d’une manière poétique\u00A0: l\'application décompose le bruit enregistré en fréquences et en intensités, puis les transforme en motifs visuels et sonores esthétiques. L\'application propose ainsi de visualiser et "d\'écouter" les données d’un trajet quotidien en métro.'
-              : 'Commute combines vision and audio in a poetic way: the app breaks recorded noise down into frequencies and intensities, and then transforms them into beautiful visual and sound patterns. The app therefore provides the opportunity to both listen to and watch data that relates to a daily metro journey.'
-          }
-        </Paragraph1>
-        <Paragraph1>
-          {
-            isFr
-              ? 'Avec ce projet, nous avons expérimenté la sonification de données. Dans Commute, les données génèrent une mélodie harmonieuse grâce à un algorithme de correspondance entre les décibels récoltés et des fréquences harmoniques dans un système pentatonique.'
-              : 'Throughout the project, we experimented with data sonication. In Commute, the data generates a harmonious melody thanks to an algorithm that matches the decibels collected with the harmonic frequencies in a pentatonic scale.'
-          }
-        </Paragraph1>
-      </Section>
-      <Section>
-        <SectionImage>
-          <Img src={imgBody2} />
-        </SectionImage>
-        <Section>
-          <ImgLegend>
-            {
-              isFr
-                ? 'Le mode de visualisation en spirale met l\'accent sur la fatigue endurée par les voyageurs lors d\'un trajet en métro\u00A0: chaque minute passée au delà de 80\u00A0dB dans la journée nuit à notre santé.'
-                : 'The circular viewing mode highlights the impact of each metro trip on travelers: every minute spent above 80 dB in the day harms our health.'
-            }
-          </ImgLegend>
-        </Section>
-        <Section>
-          <GIFVideo uri='429918445' />
-        </Section>
-        <SectionImage marginBottom='spacingM'>
-          <Img src={imgBody3} />
-        </SectionImage>
-        <SectionImage>
-          <Img src={imgBody4} />
-        </SectionImage>
-      </Section>
-      <Section>
-        <SectionTitle>
-          <FormattedMessage id='project-body-main-point' />
-        </SectionTitle>
-        <Paragraph1>
-          {
-            isFr
-              ? 'Commute fait le pari que l’expérience immersive, l’interactivité et le son peuvent redonner prise aux habitants de grandes villes sur leur quotidien.'
-              : 'With Commute, we hope that the immersive experience, the interactivity and the sounds can give something back each day to people living in large cities.'
-          }
-        </Paragraph1>
-      </Section>
-      <Section>
-        <SectionImage>
-          <Img src={imgBody5} />
-        </SectionImage>
-        <Section>
-          <ImgLegend>
-            {
-              isFr
-                ? 'En comparant l\'empreinte sonore des différentes lignes de métro, les utilisateurs peuvent mieux comprendre les causes de la pollution sonore.'
-                : 'By comparing the noise footprint of different metro lines, users can better understand the causes of noise pollution.'
-            }
-          </ImgLegend>
-        </Section>
-      </Section>
-      <Section>
-        <LongVideo uri='428090454' />
+      
       </Section>
     </>
   )

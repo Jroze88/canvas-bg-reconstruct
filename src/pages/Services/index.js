@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 import { Link as ReactScrollLink } from 'react-scroll'
 import { map } from 'lodash'
 import styled from '@emotion/styled'
@@ -124,13 +124,13 @@ const VideoPlayer = ({ src, isPlaying }) => {
 }
 
 const Panel = () => {
-  const { lang } = useParams()
-  const [activeId, setActiveId] = useState(false)
-  const isMobile = useIsSmall()
+  // const { lang } = useParams()
+  // const [activeId, setActiveId] = useState(false)
+  // const isMobile = useIsSmall()
 
   return (
     <PanelContainer>
-      {map(services, s => (
+      {/* {map(services, s => (
         <PanelItem key={s.id}>
           <ScrollLinkStyled
             to={s.id}
@@ -147,7 +147,7 @@ const Panel = () => {
             <VideoPlayer src={s.video} isPlaying={s.id === activeId} />
           </VideoContainer>
         </PanelItem>
-      ))}
+      ))} */}
     </PanelContainer>
   )
 }
@@ -155,7 +155,7 @@ const Panel = () => {
 const Services = () => {
   return (
     <GridContainer>
-      <Metas wording='services' />
+      {/* <Metas wording='services' />
       <PageHeader
         isDarkTheme={layout.SERVICES.isHeaderDark}
         titleMain={<FormattedMessage id='services-main-title' />}
@@ -170,7 +170,7 @@ const Services = () => {
             <Section serviceKey={serviceKey} />
           </div>
         ))}
-      </RightCol>
+      </RightCol> */}
     </GridContainer>
   )
 }

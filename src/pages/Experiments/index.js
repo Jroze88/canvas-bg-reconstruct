@@ -1,5 +1,5 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 import { map } from 'lodash'
 import { useParams } from 'react-router-dom'
 import { css } from '@emotion/core'
@@ -110,8 +110,8 @@ const Experiments = ({ theme }) => {
       <Metas wording='experiments' />
       <PageHeader
         isDarkTheme={layout.EXPERIMENTS.isHeaderDark}
-        titleMain={<FormattedMessage id='experiments-main-title' />}
-        chapo={<FormattedMessage id='experiments-chapo' />}
+        // titleMain={<FormattedMessage id='experiments-main-title' />}
+        // chapo={<FormattedMessage id='experiments-chapo' />}
         noBorder
       />
       {map(experiments, (project, index) => (
@@ -128,7 +128,7 @@ const Experiments = ({ theme }) => {
       ))}
       <CategoryLinkContainer to={`/${lang}/${ROUTES.PROJECTS.PATH}`}>
         <Title3>
-          <FormattedMessage id='lab-link-to-projects' />
+          {/* <FormattedMessage id='lab-link-to-projects' /> */}
         </Title3>
         <ArrowRightStyled color={theme.tonic} />
       </CategoryLinkContainer>

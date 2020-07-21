@@ -2,7 +2,8 @@ import React from 'react'
 import styled from '@emotion/styled'
 import { withTheme } from 'emotion-theming'
 import { css } from '@emotion/core'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
+
 import { useParams } from 'react-router-dom'
 
 import { Title2 } from '../../../components/Titles'
@@ -32,7 +33,7 @@ import saintGobainLogo from './logos/logo-saint_gobain.svg'
 import sncfReseauLogo from './logos/logo-sncf_reseau.svg'
 import societeGeneraleLogo from './logos/logo-societe_generale.svg'
 import twitterLogo from './logos/logo-twitter.svg'
-
+const FormattedMessage = 'poo'
 const TitleContact = styled.div`
   grid-column: 2 / -2;
   text-align: center;
@@ -182,7 +183,7 @@ const Clients = () => {
   return (
     <>
       <TitleModule>
-        <FormattedMessage id='home-clients-title' />
+        {/* <FormattedMessage id='home-clients-title' /> */}
       </TitleModule>
       <Logos>
         {
@@ -199,7 +200,7 @@ const Clients = () => {
           <FormattedMessage id='home-contact-title' />
         </StyledTitle2>
         <GuidelineLink to={`/${lang}/${ROUTES.GUIDELINES.SLUG_INDEX}`}>
-          <FormattedMessage id='home-contact-guideline' />
+          {/* <FormattedMessage id='home-contact-guideline' /> */}
         </GuidelineLink>
       </TitleContact>
       <ContactContainer>

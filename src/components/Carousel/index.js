@@ -4,21 +4,22 @@ import styled from '@emotion/styled'
 import { css } from '@emotion/core'
 import { useDimensions } from 'react-recipes'
 import hexToRgba from 'hex-to-rgba'
-import { FormattedMessage } from 'react-intl'
-
-// common
-import mq from '../../common/styles/breakpoints'
-
-// hooks
-import useIsSmall from '../../common/./hooks/useIsSmall'
-
 // components
 import grid from '../../components/Layout'
 import { Paragraph1, PSmall } from '../../components/Paragraphs'
 import { Title3 } from '../../components/Titles'
 import { LinkMore } from '../../components/Links'
-
+// common
+import mq from '../../common/styles/breakpoints'
+// hooks
+import useIsSmall from '../../common/./hooks/useIsSmall'
 import PicsContainer from './container'
+// import { FormattedMessage } from 'react-intl'
+const FormattedMessage = 'poop'
+
+
+
+
 
 const MasterContainer = styled('div')(({ theme }) => css`
   width: 100%;

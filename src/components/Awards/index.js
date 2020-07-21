@@ -1,7 +1,7 @@
 import React from 'react'
 
 import ListTable, { TitleLeft, ListContainerRight } from '../../components/ListTable'
-import { FormattedMessage } from 'react-intl'
+// import { FormattedMessage } from 'react-intl'
 
 const headers = [
   { id: 'label', isHighlighted: true },
@@ -121,7 +121,7 @@ const Awards = ({ isDarkTheme }) => {
   return (
     <>
       <TitleLeft>
-        <FormattedMessage id='awards-title' />
+   poo
       </TitleLeft>
       <ListContainerRight id='award'>
         <ListTable
